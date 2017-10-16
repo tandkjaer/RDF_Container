@@ -4,7 +4,9 @@ class CfgPatches
 	class RDF_Container
 	{
 		units[]={
-			"RDF_Container_1"
+			"RDF_Container_Del",
+      "RDF_Container_Ammo",
+      "RDF_Container_Medic"
 		};
 		weapons[]={};
 		requiredVersion=0.1;
@@ -37,16 +39,16 @@ class CfgVehicles
   class thing;
   class Cargo_base_F;
   class all;
-  class Land_Cargo20_military_green_F; //Container
+  class plp_ct_ContPlainBlack; //Container
 
 
-	class RDF_Container_1 : Land_Cargo20_military_green_F
+	class RDF_Container_Del : plp_ct_ContPlainBlack
 	{
 		scope=2;
 		scopeCurator = 2;
-		displayName="RDF Container 1";
+		displayName="RDF Container del";
 		//model="\A3\weapons_F\AmmoBoxes\WpnsBox_F";
-		_generalMacro="RDF_Container_1";
+		_generalMacro="RDF_Container_del";
 		editorCategory = "RDF_Milsim";
 		editorSubcategory = "Container_supplyes";
 		/*hiddenselections[]=
@@ -311,10 +313,88 @@ class CfgVehicles
 			{
 				backpack = "RDF_M11_Kitbag_M";
 				count = 2;
-
 			};
-
 		};
 		accuracy=1000;
 	};
+
+  class RDF_Container_Ammo : plp_ct_ContPlainBlack
+  {
+    scope=2;
+    scopeCurator = 2;
+    displayName="RDF Container Ammo";
+    _generalMacro="RDF_Container_Ammo";
+    editorCategory = "RDF_Milsim";
+    editorSubcategory = "Container_supplyes";
+    /*hiddenselections[]=
+    {
+      "Camo"
+    };
+    hiddenselectionstextures[]=
+    {
+      "\RDF_Kasser\data\supply_rdf_gruppe_co.paa"
+    };
+    */
+    //icon = "iconCrateWpns";
+    transportmaxmagazines = 9999;
+    transportmaxweapons   = 9999;
+    transportmaxbackpacks = 9999;
+    maximumLoad = 100000;
+
+    class TransportMagazines
+      {
+
+      };
+
+    class TransportWeapons
+      {
+
+      };
+
+    class TransportBackpacks
+      {
+
+      };
+    accuracy=1000;
+  };
+
+    class RDF_Container_Medic : plp_ct_ContPlainBlack
+  	{
+  		scope=2;
+  		scopeCurator = 2;
+  		displayName="RDF Container Medic";
+  		_generalMacro="RDF_Container_Medic";
+  		editorCategory = "RDF_Milsim";
+  		editorSubcategory = "Container_supplyes";
+  		/*hiddenselections[]=
+  		{
+  			"Camo"
+  		};
+  		hiddenselectionstextures[]=
+  		{
+  			"\RDF_Container\data\Misc_Cargo_Brown1_CO.paa"
+  		};*/
+
+  		//icon = "iconCrateWpns";
+      transportmaxmagazines = 9999;
+      transportmaxweapons   = 9999;
+      transportmaxbackpacks = 9999;
+  		maximumLoad = 100000;
+
+      class TransportMagazines
+  		{
+
+      };
+
+  		class TransportWeapons
+  		{
+
+  		};
+
+      class TransportBackpacks
+      {
+
+      };
+  		accuracy=1000;
+    };
 };
