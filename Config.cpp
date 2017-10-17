@@ -51,15 +51,18 @@ class CfgVehicles
 		_generalMacro="RDF_Container_del";
 		editorCategory = "RDF_Milsim";
 		editorSubcategory = "Container_supplyes";
-		/*hiddenselections[]=
+		hiddenselections[]=
 		{
-			"Camo"
+			"Camo",
+			"Camo1"
 		};
 		hiddenselectionstextures[]=
 		{
-			"\RDF_Kasser\data\supply_rdf_gruppe_co.paa"
+			"\RDF_Container\Data\RDF_Del.paa",
+
+			"\RDF_Container\Data\plp_ct_Cont_Display_On.paa"
 		};
-    */
+
 		//icon = "iconCrateWpns";
     transportmaxmagazines = 9999;
     transportmaxweapons   = 9999;
@@ -326,15 +329,17 @@ class CfgVehicles
     _generalMacro="RDF_Container_Ammo";
     editorCategory = "RDF_Milsim";
     editorSubcategory = "Container_supplyes";
-    /*hiddenselections[]=
-    {
-      "Camo"
-    };
-    hiddenselectionstextures[]=
-    {
-      "\RDF_Kasser\data\supply_rdf_gruppe_co.paa"
-    };
-    */
+		hiddenselections[]=
+		{
+			"Camo",
+			"Camo1"
+		};
+		hiddenselectionstextures[]=
+		{
+			"\RDF_Container\Data\RDF_Del.paa",
+
+			"\RDF_Container\Data\plp_ct_Cont_Display_On.paa"
+		};
     //icon = "iconCrateWpns";
     transportmaxmagazines = 9999;
     transportmaxweapons   = 9999;
@@ -366,14 +371,17 @@ class CfgVehicles
   		_generalMacro="RDF_Container_Medic";
   		editorCategory = "RDF_Milsim";
   		editorSubcategory = "Container_supplyes";
-  		/*hiddenselections[]=
-  		{
-  			"Camo"
-  		};
-  		hiddenselectionstextures[]=
-  		{
-  			"\RDF_Container\data\Misc_Cargo_Brown1_CO.paa"
-  		};*/
+			hiddenselections[]=
+			{
+				"Camo",
+				"Camo1"
+			};
+			hiddenselectionstextures[]=
+			{
+				"\RDF_Container\Data\RDF_Del.paa",
+
+				"\RDF_Container\Data\plp_ct_Cont_Display_On.paa"
+			};
 
   		//icon = "iconCrateWpns";
       transportmaxmagazines = 9999;
