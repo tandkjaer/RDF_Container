@@ -76,7 +76,7 @@ class CfgVehicles
 				weapon="hlc_lmg_M60E4";
 				count=10;
 			};
-			class _xx_rhs_weap_hk416d145 //HK416 
+			class _xx_rhs_weap_hk416d145 //HK416
 			{
 				weapon="rhs_weap_hk416d145";
 				count=30;
@@ -170,12 +170,12 @@ class CfgVehicles
 				name="RH_c79_2d";
 				count=60;
 			};
-			class _xx_RH_compm4s //Aimpoint 
+			class _xx_RH_compm4s //Aimpoint
 			{
 				name="RH_compm4s";
 				count=70;
 			};
-			class _xx_rhs_optic_maaws //dyse sighte 
+			class _xx_rhs_optic_maaws //dyse sighte
 			{
 				name="rhs_optic_maaws";
 				count=10;
@@ -297,7 +297,7 @@ class CfgVehicles
 		};
 		hiddenselectionstextures[]=
 		{
-			"\RDF_Container\Data\RDF_Del.paa",
+			"\RDF_Container\Data\RDF_Ammo.paa",
 
 			"\RDF_Container\Data\plp_ct_Cont_Display_On.paa"
 		};
@@ -422,7 +422,7 @@ class CfgVehicles
 			};
 			hiddenselectionstextures[]=
 			{
-				"\RDF_Container\Data\RDF_Del.paa",
+				"\RDF_Container\Data\RDF_Medic.paa",
 
 				"\RDF_Container\Data\plp_ct_Cont_Display_On.paa"
 			};
