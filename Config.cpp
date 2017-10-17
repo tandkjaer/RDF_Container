@@ -96,11 +96,6 @@ class CfgVehicles
 				weapon="rhs_weap_M136";
 				count=20;
 			};
-			class _xx_ACE_VMH3 //mine detektor
-			{
-				name="ACE_VMH3";
-				count=20;
-			};
 			class _xx_rhs_weap_maaws //Dysekanonen
 			{
 				weapon="rhs_weap_maaws";
@@ -139,6 +134,11 @@ class CfgVehicles
 			{
 				name="rhsusf_ANPVS_14";
 				count=70;
+			};
+			class _xx_ACE_VMH3 //mine detektor
+			{
+				name="ACE_VMH3";
+				count=20;
 			};
 			class _xx_ACE_DefusalKit //Defusalkit
 			{
@@ -433,7 +433,7 @@ class CfgVehicles
       transportmaxbackpacks = 9999;
   		maximumLoad = 100000;
 
-      class TransportMagazines
+      class TransportItems
   		{
 			class _xx_ACE_elasticBandage
 			{
