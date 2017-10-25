@@ -39,10 +39,10 @@ class CfgVehicles
   class thing;
   class Cargo_base_F;
   class all;
-  class plp_ct_ContPlainBlack; //Container
+  class Land_Cargo20_military_green_F; //Container
 
 
-	class RDF_Container_Del : plp_ct_ContPlainBlack
+	class RDF_Container_Del : Land_Cargo20_military_green_F
 	{
 		scope=2;
 		scopeCurator = 2;
@@ -51,7 +51,7 @@ class CfgVehicles
 		_generalMacro="RDF_Container_del";
 		editorCategory = "RDF_Milsim";
 		editorSubcategory = "Container_supplyes";
-		hiddenselections[]=
+		/*hiddenselections[]=
 		{
 			"Camo",
 			"Camo1"
@@ -62,7 +62,7 @@ class CfgVehicles
 
 			"\RDF_Container\Data\plp_ct_Cont_Display_On.paa"
 		};
-
+*/
 		//icon = "iconCrateWpns";
     transportmaxmagazines = 9999;
     transportmaxweapons   = 9999;
@@ -282,7 +282,7 @@ class CfgVehicles
 		accuracy=1000;
 	};
 
-  class RDF_Container_Ammo : plp_ct_ContPlainBlack
+  class RDF_Container_Ammo : Land_Cargo20_military_green_F
   {
     scope=2;
     scopeCurator = 2;
@@ -290,7 +290,7 @@ class CfgVehicles
     _generalMacro="RDF_Container_Ammo";
     editorCategory = "RDF_Milsim";
     editorSubcategory = "Container_supplyes";
-		hiddenselections[]=
+		/*hiddenselections[]=
 		{
 			"Camo",
 			"Camo1"
@@ -300,7 +300,7 @@ class CfgVehicles
 			"\RDF_Container\Data\RDF_Ammo.paa",
 
 			"\RDF_Container\Data\plp_ct_Cont_Display_On.paa"
-		};
+		*/};
     //icon = "iconCrateWpns";
     transportmaxmagazines = 9999;
     transportmaxweapons   = 9999;
@@ -407,7 +407,7 @@ class CfgVehicles
     accuracy=1000;
   };
 
-    class RDF_Container_Medic : plp_ct_ContPlainBlack
+    class RDF_Container_Medic : Land_Cargo20_military_green_F
   	{
   		scope=2;
   		scopeCurator = 2;
@@ -415,7 +415,7 @@ class CfgVehicles
   		_generalMacro="RDF_Container_Medic";
   		editorCategory = "RDF_Milsim";
   		editorSubcategory = "Container_supplyes";
-			hiddenselections[]=
+			/*hiddenselections[]=
 			{
 				"Camo",
 				"Camo1"
@@ -426,7 +426,7 @@ class CfgVehicles
 
 				"\RDF_Container\Data\plp_ct_Cont_Display_On.paa"
 			};
-
+*/
   		//icon = "iconCrateWpns";
       transportmaxmagazines = 9999;
       transportmaxweapons   = 9999;
