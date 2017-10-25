@@ -314,11 +314,6 @@ class CfgVehicles
 				magazine="rhs_mag_30Rnd_556x45_Mk318_Stanag";
 				count=500;
 			};
-			class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red //HK416 ammo Tracer
-			{
-				magazine="rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
-				count=250;
-			};
 			class _xx_hlc_100Rnd_762x51_B_M60E4 //M60E4 ammo
 			{
 				magazine="hlc_100Rnd_762x51_B_M60E4";
