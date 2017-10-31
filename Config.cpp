@@ -158,6 +158,11 @@ class CfgVehicles
 				name="RH_c79_2d";
 				count=60;
 			};
+			class _xx_RH_c79 // Elcan til HK416
+			{
+				name="RH_c79"; //Elcan 3D til HK416
+				count=60;
+			};
 			class _xx_RH_compm4s //Aimpoint
 			{
 				name="RH_compm4s";
