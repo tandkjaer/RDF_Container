@@ -369,6 +369,32 @@ class CfgVehicles
 				magazine="rhs_mag_m715_Green";
 				count=30;
 			};
+			  			class _xx_ACE_1Rnd_82mm_Mo_HE
+			{
+				magazine="ACE_1Rnd_82mm_Mo_HE";
+				count=25;
+			};
+			class _xx_ACE_1Rnd_82mm_Mo_Smoke
+			{
+				magazine="ACE_1Rnd_82mm_Mo_Smoke";
+				count=50;
+			};
+			class _xx_ACE_1Rnd_82mm_Mo_Illum
+			{
+				magazine="ACE_1Rnd_82mm_Mo_Illum";
+				count=50;
+			};
+
+ 			class _xx_ACE_1Rnd_82mm_Mo_HE_Guided
+		 	{
+ 			magazine="ACE_1Rnd_82mm_Mo_HE_Guided";
+ 			count=10;
+ 			};
+ 			class _xx_ACE_1Rnd_82mm_Mo_HE_LaserGuided
+		 	{
+ 		 	magazine="ACE_1Rnd_82mm_Mo_HE_LaserGuided";
+			count=10;
+			};
       };
 
     class TransportWeapons
@@ -432,6 +458,11 @@ class CfgVehicles
 			{
 				name="ACE_morphine";
 				count=140;
+			};
+			class _xx_adv_aceCPR_AED
+			{
+				name="adv_aceCPR_AED";
+				count=4;
 			};
 			class _xx_ACE_tourniquet
 			{
