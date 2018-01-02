@@ -168,9 +168,9 @@ class CfgVehicles
 				name="rhs_optic_maaws";
 				count=10;
 			};
-			class _xx_rhsusf_acc_anpeq15A //Laser til våben
+			class _xx_rhsusf_acc_anpeq15_bk_light_h //Laser til våben
 			{
-				name="rhsusf_acc_anpeq15A";
+				name="rhsusf_acc_anpeq15_bk_light_h";
 				count=70;
 			};
 			class _xx_tf_anprc152 //Radio
