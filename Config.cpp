@@ -93,29 +93,44 @@ class CfgVehicles
 
 		class TransportItems
 		{
-			class _xx_RDF_M11_U //uniform
+			class _xx_RDF_M11_U2 //uniform
 			{
-				name="RDF_M11_U";
+				name="RDF_M11_U2";
 				count=70;
 			};
-			class _xx_RDF_v_sd_3 //vest nomal
+			class _xx_RDF_VpB_M11 //vest nomal
 			{
-				name="RDF_v_sd_3";
+				name="RDF_VpB_M11";
 				count=30;
 			};
-			class _xx_RDF_V_lsv_3 //vest LSV
+			class _xx_RDF_VpB_M11_Medic //vest medic
 			{
-				name="RDF_V_lsv_3";
+				name="RDF_VpB_M11_Medic";
+				count=30;
+			};
+			class _xx_RDF_VpB_M11_JTAC //vest JTAC
+			{
+				name="RDF_VpB_M11_JTAC";
+				count=30;
+			};
+			class _xx_RDF_VpB_M11_Granader //vest Granader
+			{
+				name="RDF_VpB_M11_Granader";
+				count=30;
+			};
+			class _xx_RDF_VpB_M11_LSV //vest LSV
+			{
+				name="RDF_VpB_M11_LSV";
 				count=20;
 			};
-			class _xx_RDF_V_gf_3 //vest GF/NK
+			class _xx_RDF_VpB_M11_GF //vest GF/NK
 			{
-				name="RDF_V_gf_3";
+				name="RDF_VpB_M11_GF";
 				count=20;
 			};
-			class _xx_RDF_M11_Hjelm_06 //hjelm
+			class _xx_mpx_cobradk //hjelm
 			{
-				name="RDF_M11_Hjelm_06";
+				name="mpx_cobradk";
 				count=70;
 			};
 			class _xx_rhsusf_ANPVS_14 //Natkamp
@@ -173,9 +188,14 @@ class CfgVehicles
 				name="rhsusf_acc_anpeq15A";
 				count=70;
 			};
-			class _xx_tf_anprc152 //Radio
+			class _xx_ACRE_PRC343 //Radio
 			{
-				name="tf_anprc152";
+				name="ACRE_PRC343";
+				count=70;
+			};
+			class _xx_ACRE_PRC152 //Radio
+			{
+				name="ACRE_PRC152";
 				count=70;
 			};
 			class _xx_ItemMap //Kort
@@ -223,6 +243,11 @@ class CfgVehicles
 				name="ItemCompass";
 				count=70;
 			};
+			class _xx_ACRE_PRC117F //kompas
+			{
+				name="ACRE_PRC117F";
+				count=20;
+			};
 			class _xx_ACE_Flashlight_XL50 //Lygte til kort
 			{
 				name="ACE_Flashlight_XL50";
@@ -260,6 +285,21 @@ class CfgVehicles
 			{
 				backpack = "RDF_M11_blade_d";
 				count = 20;
+			};
+			class _xx_milgp_bp_Tomahawk_mc //Kitback
+			{
+				backpack = "milgp_bp_Tomahawk_mc";
+				count = 70;
+			};
+			class _xx_RDF_VpB_M11_JTAC //Kitback
+			{
+				backpack = "RDF_VpB_M11_JTAC";
+				count = 70;
+			};
+			class _xx_milgp_bp_Pointman_mc //Kitback
+			{
+				backpack = "milgp_bp_Pointman_mc";
+				count = 70;
 			};
 			class _xx_rhsusf_falconii_mc //Kitback
 			{
@@ -320,14 +360,14 @@ class CfgVehicles
 				magazine="HandGrenade";
 				count=130;
 			};
-			class _xx_SmokeShell //hvid røg
+			class _xx_rhs_mag_an_m8hc //hvid røg
 			{
-				magazine="SmokeShell";
+				magazine="rhs_mag_an_m8hc";
 				count=150;
 			};
-			class _xx_SmokeShellGreen //Grøn røg
+			class _xx_rhs_mag_m18_green //Grøn røg
 			{
-				magazine="SmokeShellGreen";
+				magazine="rhs_mag_m18_green";
 				count=90;
 			};
 			class _xx_rhs_mag_m18_red	//Rød røg
@@ -369,7 +409,7 @@ class CfgVehicles
 				magazine="rhs_mag_m715_Green";
 				count=30;
 			};
-			  			class _xx_ACE_1Rnd_82mm_Mo_HE
+			class _xx_ACE_1Rnd_82mm_Mo_HE
 			{
 				magazine="ACE_1Rnd_82mm_Mo_HE";
 				count=25;
