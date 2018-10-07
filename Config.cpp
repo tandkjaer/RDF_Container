@@ -285,9 +285,9 @@ class CfgVehicles
 
     class TransportMagazines
       {
-			class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag //HK416 ammo
+			class _xx_rhs_mag_30Rnd_556x45_Mk318_PMAG //HK416 ammo
 			{
-				magazine="rhs_mag_30Rnd_556x45_Mk318_Stanag";
+				magazine="rhs_mag_30Rnd_556x45_Mk318_PMAG";
 				count=500;
 			};
 			class _xx_hlc_100Rnd_762x51_B_M60E4 //M60E4 ammo
@@ -369,7 +369,7 @@ class CfgVehicles
 				magazine="rhs_mag_m715_Green";
 				count=30;
 			};
-			  			class _xx_ACE_1Rnd_82mm_Mo_HE
+			class _xx_ACE_1Rnd_82mm_Mo_HE
 			{
 				magazine="ACE_1Rnd_82mm_Mo_HE";
 				count=25;
@@ -384,16 +384,15 @@ class CfgVehicles
 				magazine="ACE_1Rnd_82mm_Mo_Illum";
 				count=50;
 			};
-
  			class _xx_ACE_1Rnd_82mm_Mo_HE_Guided
 		 	{
- 			magazine="ACE_1Rnd_82mm_Mo_HE_Guided";
- 			count=10;
+				magazine="ACE_1Rnd_82mm_Mo_HE_Guided";
+				count=10;
  			};
  			class _xx_ACE_1Rnd_82mm_Mo_HE_LaserGuided
 		 	{
- 		 	magazine="ACE_1Rnd_82mm_Mo_HE_LaserGuided";
-			count=10;
+				magazine="ACE_1Rnd_82mm_Mo_HE_LaserGuided";
+				count=10;
 			};
       };
 
